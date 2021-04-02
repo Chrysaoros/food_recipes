@@ -1,0 +1,16 @@
+section.category > * {
+    margin: 20px;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category-name {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}

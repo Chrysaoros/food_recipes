@@ -1,0 +1,28 @@
+.header.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.app-description, .food-image {
+    flex: 1;
+}
+
+.app-description {
+    padding: 20px 30px;
+    line-height: 1.5rem;
+}
+
+.category-link {
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+i {
+    font-size: 1rem;
+    margin-left: 8px;
+}

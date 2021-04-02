@@ -1,0 +1,10 @@
+.socials-container {
+    display: flex;
+    background-color: #eee;
+    padding: 25px 50px;
+}
+
+.socials-container > .social {
+    margin: 10px 20px;
+    font-size: 24px;
+}
