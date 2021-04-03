@@ -1,6 +1,5 @@
 import React from "react";
 
-import Menu from "../Menu/Menu";
 import ImageCard from "../ImageCard/ImageCard";
 import "./Header.css";
 

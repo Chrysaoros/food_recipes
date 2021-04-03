@@ -2,17 +2,15 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
 import "./App.css";
-// import Header from "./Header/Header";
 import Menu from "./Menu/Menu";
 import Footer from "./Footer/Footer";
 import HomePage from "./HomePage/HomePage";
 import CategoryPage from "./CategoryPage/CategoryPage";
 
 class App extends Component {
-  state = { socials: ["facebook-f", "instagram"], categoryName: "" };
+  state = { socials: ["facebook", "instagram"] };
 
   render() {
-    console.log(this.state);
     return (
       <BrowserRouter>
         <>

@@ -6,7 +6,6 @@ import ImageCard from "../ImageCard/ImageCard";
 
 class Categories extends Component {
   render() {
-    console.log("Categories: ", this.props);
     const categoryArr = this.props.categories.map(
       ({
         idCategory: id,

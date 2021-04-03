@@ -7,7 +7,7 @@ const SocialFollow = (props) => {
   const sites = props.sites.map((site) => {
     return (
       <div key={site} className={`${site} social`}>
-        <a href="/" target="_blank">
+        <a href={`https://www.${site}.com`} target="_blank">
           <i className={`fab fa-${site} fa-2x`}></i>
         </a>
       </div>
